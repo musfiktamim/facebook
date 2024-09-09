@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .nav-list {
+      @apply  h-[80%] flex items-center justify-center w-20  rounded-lg relative ;
+    }
+    .nav-NavLink{
+        @apply h-[100%] w-[100%] flex items-center justify-center ;
+    }
+    .nav-right-div-list{
+      @apply flex justify-around h-8 items-center cursor-pointer hover:bg-slate-400 hover:text-white hover:shadow-lg;
+    }
+    .Frineds_ListAcc_container_md{
+      @apply md:h-auto md:pb-5 md:w-[220px] shadow-lg md:rounded-md md:inline-block bg-white w-[100vw] h-20 flex;
+    }
+    .Frineds_ListAcc_imgcontainer_md{
+      @apply md:h-[220px] md:w-[220px]   md:rounded-t-md w-20 h-20 ;
+    }
+
+
+
+    /* video  */
+    .video_nav_list{
+      @apply h-10 border-t-2 shadow-md rounded-md bg-white hover:bg-gray-400 hover:text-gray-200 hover:rounded-lg hover:shadow-xl hover:shadow-sky-300;
+    }
+    .video_nav_navlink{
+      @apply flex items-center px-4 w-[100%] h-[100%] ;
+    }
+  }
